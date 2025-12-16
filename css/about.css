@@ -28,15 +28,15 @@
 
 .about-hero .about-hero-portrait {
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(10deg);
-  width: 15%;
+  width: 8%;
   aspect-ratio: 5/7;
   border-radius: 1em;
   overflow: hidden;
   border: 0.25em solid var(--accent3);
-  outline: 0.25em solid var(--accent1);
+  outline: 0.25em solid var(--accent2);
 }
 
 .about-hero .about-hero-bio {
@@ -59,7 +59,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: var(--accent1);
+  background-color: var(--accent2);
   border: 0.25em solid var(--fg);
   border-radius: 1em;
   padding: 3em 2em;

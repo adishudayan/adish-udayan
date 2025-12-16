@@ -1,4 +1,10 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "routes": [
+    { "src": "/about", "dest": "/about.html" },
+    { "src": "/work", "dest": "/work.html" },
+    { "src": "/project", "dest": "/project.html" },
+    { "src": "/contact", "dest": "/contact.html" }
+  ]
 }
